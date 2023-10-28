@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormMenuPSetBase</class>
+ <widget class="QWidget" name="FormMenuPSetBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FormMenuPSetBase</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QGroupBox {
+color: white;
+border: 1px solid white;
+border-radius:8px;
+margin-top: 0.5em;
+padding-top: 0.6em;
+}
+QGroupBox::title {
+subcontrol-origin: margin;
+left: 9px;
+}</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>984</width>
+     <height>580</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>10</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>基本参数</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="leftMargin">
+        <number>10</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+       <property name="bottomMargin">
+        <number>10</number>
+       </property>
+       <property name="spacing">
+        <number>10</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QImageLineEdit" name="val_1">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>产品名称：?</string>
+         </property>
+         <property name="text">
+          <string>产品名称：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QImageLineEdit" name="val_4">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>目标值：?</string>
+         </property>
+         <property name="text">
+          <string>目标值：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QImageLineEdit" name="val_8">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>单位重量：?</string>
+         </property>
+         <property name="text">
+          <string>单位重量：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QImageLineEdit" name="val_2">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>设置速度：?</string>
+         </property>
+         <property name="text">
+          <string>设置速度：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QImageLineEdit" name="val_5">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>上限值：?</string>
+         </property>
+         <property name="text">
+          <string>上限值：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QImageLineEdit" name="val_9">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>单位重量上限：?</string>
+         </property>
+         <property name="text">
+          <string>单位重量上限：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QImageLineEdit" name="val_3">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>组合模式：?</string>
+         </property>
+         <property name="text">
+          <string>组合模式：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QImageLineEdit" name="val_6">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>下限值：?</string>
+         </property>
+         <property name="text">
+          <string>下限值：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QImageLineEdit" name="val_10">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>单位重量下限：?</string>
+         </property>
+         <property name="text">
+          <string>单位重量下限：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QImageLineEdit" name="val_7">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>偏差量：?</string>
+         </property>
+         <property name="text">
+          <string>偏差量：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QImageLineEdit" name="val_11">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>单个皮重：?</string>
+         </property>
+         <property name="text">
+          <string>单个皮重：</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string>中级参数</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="leftMargin">
+        <number>10</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>10</number>
+       </property>
+       <property name="bottomMargin">
+        <number>10</number>
+       </property>
+       <property name="spacing">
+        <number>10</number>
+       </property>
+       <item row="3" column="2">
+        <widget class="QImageLineEdit" name="val_m_12">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>单位重量重置间隔：?</string>
+         </property>
+         <property name="text">
+          <string>单位重量重置间隔：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QImageLineEdit" name="val_m_6">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>料位加料时间：?</string>
+         </property>
+         <property name="text">
+          <string>料位加料时间：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QImageLineEdit" name="val_m_10">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>禁止组合重量：?</string>
+         </property>
+         <property name="text">
+          <string>禁止组合重量：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QImageLineEdit" name="val_m_3">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>多次放料次数：?</string>
+         </property>
+         <property name="text">
+          <string>多次放料次数：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QImageLineEdit" name="val_m_4">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>集料斗放料次数：?</string>
+         </property>
+         <property name="text">
+          <string>集料斗放料次数：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QImageLineEdit" name="val_m_1">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>无料检出：?</string>
+         </property>
+         <property name="text">
+          <string>无料检出：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QImageLineEdit" name="val_m_5">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>传感器滤波系数：?</string>
+         </property>
+         <property name="text">
+          <string>传感器滤波系数：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QImageLineEdit" name="val_m_11">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>单斗强排上限：?</string>
+         </property>
+         <property name="text">
+          <string>单斗强排上限：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QImageLineEdit" name="val_m_8">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>主振重量下限：?</string>
+         </property>
+         <property name="text">
+          <string>主振重量下限：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QImageLineEdit" name="val_m_2">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>无选择检出：?</string>
+         </property>
+         <property name="text">
+          <string>无选择检出：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QImageLineEdit" name="val_m_7">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>主振重量上限：?</string>
+         </property>
+         <property name="text">
+          <string>主振重量上限：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QImageLineEdit" name="val_m_9">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="whatsThis">
+          <string>缺料停机比例：?</string>
+         </property>
+         <property name="text">
+          <string>缺料停机比例：</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QImageLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>MWidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

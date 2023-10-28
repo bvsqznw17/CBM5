@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormMenuHSetSysParam</class>
+ <widget class="QWidget" name="FormMenuHSetSysParam">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FormMenuHSetSysParam</string>
+  </property>
+  <widget class="QImageLineEdit" name="p_1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>集料斗选择：?</string>
+   </property>
+   <property name="text">
+    <string>集料斗选择：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>主振传感器：?</string>
+   </property>
+   <property name="text">
+    <string>主振传感器：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>小数位数：?</string>
+   </property>
+   <property name="text">
+    <string>小数位数：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>单位选择：?</string>
+   </property>
+   <property name="text">
+    <string>单位选择：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>上限倍数：?</string>
+   </property>
+   <property name="text">
+    <string>上限倍数：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>强排斗数：?</string>
+   </property>
+   <property name="text">
+    <string>强排斗数：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>380</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>强排二次加料：?</string>
+   </property>
+   <property name="text">
+    <string>强排二次加料：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_8">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>20</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>主振模式：?</string>
+   </property>
+   <property name="text">
+    <string>主振模式：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_9">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>80</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>运行模式：?</string>
+   </property>
+   <property name="text">
+    <string>运行模式：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_10">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>140</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>置零方式：?</string>
+   </property>
+   <property name="text">
+    <string>置零方式：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_11">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>200</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>置零范围：?</string>
+   </property>
+   <property name="text">
+    <string>置零范围：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_12">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>260</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>触发方式：?</string>
+   </property>
+   <property name="text">
+    <string>触发方式：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_13">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>320</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>放料方式：?</string>
+   </property>
+   <property name="text">
+    <string>放料方式：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_14">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>380</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>依次放料方式：?</string>
+   </property>
+   <property name="text">
+    <string>依次放料方式：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_15">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>440</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>配料从机模式：?</string>
+   </property>
+   <property name="text">
+    <string>配料从机模式：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_16">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>500</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_17">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>20</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>清洗复位时间：?</string>
+   </property>
+   <property name="text">
+    <string>清洗复位时间：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_18">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>80</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>进一下限：?</string>
+   </property>
+   <property name="text">
+    <string>进一下限：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_19">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>140</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>振动传感器：?</string>
+   </property>
+   <property name="text">
+    <string>振动传感器：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_20">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>200</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>振动系数：?</string>
+   </property>
+   <property name="text">
+    <string>振动系数：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_21">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>260</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>分度值：?</string>
+   </property>
+   <property name="text">
+    <string>分度值：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_22">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>440</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>强排导管选择：?</string>
+   </property>
+   <property name="text">
+    <string>强排导管选择：</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QImageLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>MWidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

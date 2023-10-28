@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormMenuPSet</class>
+ <widget class="QWidget" name="FormMenuPSet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FormPSet</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">FormMenuPSet {
+background: gray;
+}</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="minimumSize">
+       <size>
+        <width>128</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>参数设置</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="minimumSize">
+       <size>
+        <width>128</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>振机设置</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="minimumSize">
+       <size>
+        <width>128</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>时间调整</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="minimumSize">
+       <size>
+        <width>128</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>马达模式</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="minimumSize">
+       <size>
+        <width>128</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>指定斗</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="minimumSize">
+       <size>
+        <width>128</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>AFC</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStackedWidget" name="page">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>1024</width>
+     <height>590</height>
+    </rect>
+   </property>
+   <widget class="FormMenuPSetBase" name="page_Base"/>
+   <widget class="FormMenuPSetVib" name="page_Vib"/>
+   <widget class="FormMenuPSetTime" name="page_Time"/>
+   <widget class="FormMenuPSetMM" name="page_MM"/>
+   <widget class="FormMenuPSetSpecify" name="page_Specify"/>
+   <widget class="FormMenuPSetOther" name="page_Other"/>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FormMenuPSetBase</class>
+   <extends>QWidget</extends>
+   <header>FormMenuPSetBase.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FormMenuPSetVib</class>
+   <extends>QWidget</extends>
+   <header>FormMenuPSetVib.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FormMenuPSetTime</class>
+   <extends>QWidget</extends>
+   <header>FormMenuPSetTime.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FormMenuPSetOther</class>
+   <extends>QWidget</extends>
+   <header>FormMenuPSetOther.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FormMenuPSetSpecify</class>
+   <extends>QWidget</extends>
+   <header>FormMenuPSetSpecify.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FormMenuPSetMM</class>
+   <extends>QWidget</extends>
+   <header>FormMenuPSetMM.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

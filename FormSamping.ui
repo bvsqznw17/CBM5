@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormSamping</class>
+ <widget class="QWidget" name="FormSamping">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FormSamping</string>
+  </property>
+  <widget class="QImageLineEdit" name="val_1">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>650</y>
+     <width>290</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="whatsThis">
+    <string>包装速度：?</string>
+   </property>
+   <property name="text">
+    <string>包装速度：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_back">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>650</y>
+     <width>130</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="val_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>710</y>
+     <width>290</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="whatsThis">
+    <string>传感器滤波系数：?</string>
+   </property>
+   <property name="text">
+    <string>传感器滤波系数：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="val_3">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>650</y>
+     <width>290</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="whatsThis">
+    <string>称重斗延时：?</string>
+   </property>
+   <property name="text">
+    <string>称重斗延时：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="val_4">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>710</y>
+     <width>290</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="whatsThis">
+    <string>称重稳定时间：?</string>
+   </property>
+   <property name="text">
+    <string>称重稳定时间：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_zero">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>650</y>
+     <width>130</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>置零</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_test">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>650</y>
+     <width>124</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>测试</string>
+   </property>
+  </widget>
+  <widget class="GraphSamping" name="graph" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1004</width>
+     <height>580</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>600</y>
+     <width>1004</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>当前斗号：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="dounum">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>采样值：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="samp">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>最大值：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="max">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>当前重量：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="weight">
+      <property name="styleSheet">
+       <string notr="true">QLabel:!enabled { color: red; }</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QImageLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>MWidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>GraphSamping</class>
+   <extends>QWidget</extends>
+   <header>GraphSamping.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>btn_back</tabstop>
+  <tabstop>val_1</tabstop>
+  <tabstop>val_2</tabstop>
+  <tabstop>val_3</tabstop>
+  <tabstop>val_4</tabstop>
+  <tabstop>btn_zero</tabstop>
+  <tabstop>btn_test</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

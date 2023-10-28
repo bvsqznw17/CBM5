@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rc/icon/network_offline.ico</file>
+        <file>rc/icon/network_receive.ico</file>
+        <file>rc/icon/network_transmit.ico</file>
+        <file>rc/icon/over.png</file>
+        <file>rc/icon/down.png</file>
+        <file>rc/icon/pagedown.png</file>
+        <file>rc/icon/pageup.png</file>
+        <file>rc/icon/up.png</file>
+        <file>rc/icon/home.png</file>
+        <file>rc/icon/lack.png</file>
+        <file>rc/icon/LV0.png</file>
+        <file>rc/icon/LV1.png</file>
+        <file>rc/icon/LV2.png</file>
+        <file>rc/icon/LV3.png</file>
+        <file>rc/icon/menu.png</file>
+        <file>rc/icon/run.png</file>
+        <file>rc/icon/stop.png</file>
+        <file>rc/icon/help.png</file>
+        <file>rc/icon/next.png</file>
+        <file>rc/icon/specify_dou2.png</file>
+        <file>rc/icon/specify_dou1.png</file>
+        <file>rc/icon/specify_dou.png</file>
+        <file>rc/icon/wifi_on.png</file>
+        <file>rc/icon/wifi_off.png</file>
+    </qresource>
+</RCC>

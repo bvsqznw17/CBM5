@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormMenuHSetSortor</class>
+ <widget class="QWidget" name="FormMenuHSetSortor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FormMenuHSetSortor</string>
+  </property>
+  <widget class="QImageLineEdit" name="p_1">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>平均偏差：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_3">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>20</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>目标重量偏差：</string>
+   </property>
+  </widget>
+  <widget class="GraphWeightDeviation" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>984</width>
+     <height>300</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>300</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>重量偏差：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>重量个数：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>20</y>
+     <width>120</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>更新</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QImageLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>MWidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>GraphWeightDeviation</class>
+   <extends>QWidget</extends>
+   <header>GraphWeightDeviation.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

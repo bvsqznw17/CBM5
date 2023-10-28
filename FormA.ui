@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormA</class>
+ <widget class="QWidget" name="FormA">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QStackedWidget" name="page">
+     <widget class="FormMain" name="page_Main"/>
+     <widget class="FormMenu" name="page_Menu"/>
+     <widget class="FormHelp" name="page_Help"/>
+     <widget class="FormSamping" name="page_Samp"/>
+     <widget class="FormTestDouKaiMen" name="page_KaiMen"/>
+     <widget class="FormTestZhenDong" name="page_ZhenDong"/>
+     <widget class="FormCameraCalib" name="page_CameraCalib"/>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FormMain</class>
+   <extends>QWidget</extends>
+   <header>FormMain.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FormMenu</class>
+   <extends>QWidget</extends>
+   <header>FormMenu.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FormHelp</class>
+   <extends>QWidget</extends>
+   <header>FormHelp.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FormSamping</class>
+   <extends>QWidget</extends>
+   <header>FormSamping.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FormTestDouKaiMen</class>
+   <extends>QWidget</extends>
+   <header>FormTestDouKaiMen.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FormTestZhenDong</class>
+   <extends>QWidget</extends>
+   <header>FormTestZhenDong.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FormCameraCalib</class>
+   <extends>QWidget</extends>
+   <header>FormCameraCalib.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

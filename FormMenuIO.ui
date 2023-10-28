@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormMenuIO</class>
+ <widget class="QWidget" name="FormMenuIO">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FormMenuIO</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">FormMenuIO {
+background: gray;
+}</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="minimumSize">
+       <size>
+        <width>128</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>输入端口</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="minimumSize">
+       <size>
+        <width>128</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>输出端口1</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="minimumSize">
+       <size>
+        <width>128</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>输出端口2</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="minimumSize">
+       <size>
+        <width>128</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>输出端口3</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStackedWidget" name="page">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>1024</width>
+     <height>590</height>
+    </rect>
+   </property>
+   <widget class="FormMenuIO1" name="page_1"/>
+   <widget class="FormMenuIO2" name="page_2"/>
+   <widget class="FormMenuIO2" name="page_3"/>
+   <widget class="FormMenuIO2" name="page_4"/>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FormMenuIO1</class>
+   <extends>QWidget</extends>
+   <header>FormMenuIO1.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FormMenuIO2</class>
+   <extends>QWidget</extends>
+   <header>FormMenuIO2.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

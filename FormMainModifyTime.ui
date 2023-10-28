@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormMainModifyTime</class>
+ <widget class="QWidget" name="FormMainModifyTime">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QImageLineEdit" name="p_13">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>20</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>自动置零次数：?</string>
+   </property>
+   <property name="text">
+    <string>自动置零次数：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_10">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>320</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>依次放料间隔时间：?</string>
+   </property>
+   <property name="text">
+    <string>依次放料间隔时间：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_12">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>20</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>自动置零时间：?</string>
+   </property>
+   <property name="text">
+    <string>自动置零时间：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>称重斗开门时间：?</string>
+   </property>
+   <property name="text">
+    <string>称重斗开门时间：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>集料斗前延时：?</string>
+   </property>
+   <property name="text">
+    <string>集料斗前延时：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>进料斗延时：?</string>
+   </property>
+   <property name="text">
+    <string>进料斗延时：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_9">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>260</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>放料信号时间：?</string>
+   </property>
+   <property name="text">
+    <string>放料信号时间：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_11">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>380</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>称重稳定时间：?</string>
+   </property>
+   <property name="text">
+    <string>称重稳定时间：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>进料斗开门时间：?</string>
+   </property>
+   <property name="text">
+    <string>进料斗开门时间：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_8">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>200</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>放料信号延时：?</string>
+   </property>
+   <property name="text">
+    <string>放料信号延时：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_14">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>20</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>强排导管前延时：?</string>
+   </property>
+   <property name="text">
+    <string>强排导管前延时：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_15">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>80</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>强排导管开门时间：?</string>
+   </property>
+   <property name="text">
+    <string>强排导管开门时间：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>380</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>集料斗后延时：?</string>
+   </property>
+   <property name="text">
+    <string>集料斗后延时：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_16">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>140</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>强排导管后延时：?</string>
+   </property>
+   <property name="text">
+    <string>强排导管后延时：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>称重斗延时：?</string>
+   </property>
+   <property name="text">
+    <string>称重斗延时：</string>
+   </property>
+  </widget>
+  <widget class="QImageLineEdit" name="p_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>320</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>集料斗开门时间：?</string>
+   </property>
+   <property name="text">
+    <string>集料斗开门时间：</string>
+   </property>
+  </widget>
+  <zorder>p_10</zorder>
+  <zorder>p_12</zorder>
+  <zorder>p_4</zorder>
+  <zorder>p_5</zorder>
+  <zorder>p_1</zorder>
+  <zorder>p_9</zorder>
+  <zorder>p_11</zorder>
+  <zorder>p_2</zorder>
+  <zorder>p_8</zorder>
+  <zorder>p_14</zorder>
+  <zorder>p_15</zorder>
+  <zorder>p_7</zorder>
+  <zorder>p_16</zorder>
+  <zorder>p_3</zorder>
+  <zorder>p_6</zorder>
+  <zorder>p_13</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QImageLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>MWidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

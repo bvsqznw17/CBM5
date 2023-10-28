@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormHelp</class>
+ <widget class="QWidget" name="FormHelp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FormHelp</string>
+  </property>
+  <widget class="QPushButton" name="menu">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>700</y>
+     <width>200</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回主界面</string>
+   </property>
+   <property name="icon">
+    <iconset resource="qrc.qrc">
+     <normaloff>:/rc/icon/home.png</normaloff>:/rc/icon/home.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 24px;</string>
+   </property>
+   <property name="text">
+    <string>使用说明</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="page">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>1024</width>
+     <height>650</height>
+    </rect>
+   </property>
+   <widget class="FormHelpDouState" name="page_1" native="true"/>
+   <widget class="FormHelpIOState" name="page_2"/>
+  </widget>
+  <widget class="QPushButton" name="nextPage">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>700</y>
+     <width>150</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下一个</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FormHelpDouState</class>
+   <extends>QWidget</extends>
+   <header>FormHelpDouState.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FormHelpIOState</class>
+   <extends>QWidget</extends>
+   <header>FormHelpIOState.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="qrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
